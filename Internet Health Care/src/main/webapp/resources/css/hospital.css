@@ -1,0 +1,9 @@
+.jumbotron
+{
+	background-image:url('../images/hospital.jpg');
+	color:black;
+	background-attachment:fixed;
+	min-height:800px;
+	margin-top:0px;
+	margin-bottom:0px;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="userValidator" class="com.me.spring.validator.UserValidator"></bean>	
+	<bean id="userValidator1" class="com.me.spring.validator.UserValidator1"></bean>	
+	<bean id="userDao" class="com.me.spring.dao.UserDao" ></bean>
+	<bean id="patientDao" class="com.me.spring.dao.PatientDao" ></bean>
+	<bean id="appointmentDao" class="com.me.spring.dao.AppointmentDao" ></bean>	
+	<bean id="appointmentDao1" class="com.me.spring.dao.AppointmentDao" ></bean>
+	<bean id="appointmentDetail" class="com.me.spring.dao.AppointmentDao" ></bean>	
+	<bean id="appointmentServiceDao" class="com.me.spring.dao.AppointmentDao" ></bean>	
+	<bean id="drugsComplaintDao" class="com.me.spring.dao.DrugsComplaintDao" ></bean>	
+	<bean id="drugsSalesDistributionDao" class="com.me.spring.dao.DrugsSalesDistributionDao" ></bean>	
+	<bean id="doctorComplaintDao" class="com.me.spring.dao.DoctorComplaintDao" ></bean>	
+	<bean id="doctorDao" class="com.me.spring.dao.DoctorDao" ></bean>	
+	<bean id="drugsDao" class="com.me.spring.dao.DrugsDao" ></bean>	
+</beans>
